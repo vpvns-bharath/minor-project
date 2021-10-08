@@ -1,0 +1,12 @@
+1.Paracetamol
+2.Budesonide
+3.Ivermectin
+4.Remdesivir
+5.Favipiravir
+6.Tocilizumab
+7.Vitamin C
+8.B Complex with Zinc
+9.Hydroxychloroquine
+10.Dexamethasone
+11.Azithromycin
+12.Methylprednisolone

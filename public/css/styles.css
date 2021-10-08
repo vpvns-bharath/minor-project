@@ -1,0 +1,186 @@
+:root{
+  --darkblue:#0a3d62;
+  --blue: #3c6382;
+  --card:rgba(255,255,255,.1);
+}
+
+.ffg{
+  background: url(../images/home-bg.jpg)no-repeat;
+  background-size:cover;
+  background-position: top;
+}
+
+.navbar{
+  color: "black";
+}
+
+::selection{
+  background: var(--darkblue);
+  color: #fff;
+}
+
+html{
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+.logo{
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+.nav-item{
+  font-size: 1.5rem;
+  margin-left: .7rem;
+  border-radius: .5rem;
+  color: var(--darkblue);
+}
+
+.nav-item:hover{
+  background:#bee5d3;
+  color: #fff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+
+.home{
+  text-align: center;
+  background: url(../images/home-bg.jpg)no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 45rem;
+  width: 100%;
+  padding: 5rem ;
+}
+
+.home h3{
+  padding-bottom: 2rem;
+}
+
+.prevent{
+  background-color: #dbe2ef;
+}
+
+.prevent,.symptoms{
+  text-align: center;
+  font-size: 3.5rem;
+  padding:3rem;
+}
+
+.prevent .box-container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.prevent .box-container .box{
+  flex:1 1 25rem;
+  border-radius: .5rem;
+  margin: 1rem;
+  padding:1rem;
+  text-align: center;
+}
+
+.prevent .box-container .box img{
+  height: 12rem;
+  padding:1rem;
+}
+
+.symptoms{
+  background-color: #112d4e;
+  color: #fff;
+  margin-top: 0.1rem;
+}
+
+
+.precautions{
+  background-color: #1b262c;
+  color: #fff;
+}
+
+.precautions span{
+  text-decoration: underline;
+}
+
+.precautions .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  padding: 1rem 0;
+}
+
+.precautions .row .image{
+  flex: 1 1 37rem;
+  height: 35rem;
+  text-align: center;
+}
+
+.precautions .row .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.precautions .row .content{
+  padding: 2rem 3rem;
+  flex:1 1 37rem;
+}
+
+.precautions .row .content ul li{
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  padding: .5rem 0;
+}
+.bharath,.pranay{
+  border-radius: 7rem;
+}
+
+#contact{
+  padding: 100px;
+  text-align: center;
+  background-color:#444 ;
+  margin-top: .1rem;
+}
+
+.pricing-column{
+  padding: 3%;
+}
+
+.pricing-column img{
+  margin-bottom:1.5rem;
+}
+
+.card{
+  background:var(--card);
+  box-shadow: 0 5px 10px rgba(0,0,0,.3);
+  color: #fff;
+  transition: .2s linear;
+  backdrop-filter:blur(5px);
+}
+
+.cardbtn{
+  background-color: rgba(255,255,255,.2);
+  color: #fff;
+  display: block;
+  padding:15px 0;
+  font-size: 20px;
+}
+
+.cardbtn:hover{
+  background-color: rgba(255,255,255,.4);
+  color: #fff;
+}
+
+.vishnu{
+  width: 200px;
+  height: 200px;
+  border-radius: 7rem;
+}
+
+.tracker{
+  background-color:#eeeeee;
+  margin-top: 0.1rem;
+  padding-bottom:5rem;
+}
